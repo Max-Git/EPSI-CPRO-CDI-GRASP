@@ -6,7 +6,7 @@ namespace HighCohesion
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("HighCohesion");
+            Console.WriteLine("HighCohesion Hello");
             Sale sale = new Sale();
             sale.Price = 100;
 
