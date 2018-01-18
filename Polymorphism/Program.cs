@@ -48,9 +48,8 @@ namespace Polymorphism
         }
     }
 
-    internal class ECommerce
-    {
-        internal void MakePayment(int amount, string paymentMode)
+    public class PaymentFactory{
+        public IPayment createPaymentMethod(string paymentMode)
         {
             CBPayment cbp = new CBPayment();
             BankPayment bp = new BankPayment();
@@ -59,17 +58,24 @@ namespace Polymorphism
             switch (paymentMode)
             {
                 case "CB" :
-                    cbp.MakePayment(amount);
-                    break;
+                    return new CBPayment();
                 case "PAYPAL" :
-                    bp.MakePayment(amount);
-                    break;
+                    return new PaypalPayment();
                 case "BANK" :
-                    pp.MakePayment(amount);
-                    break;
-                default:
-                    break;
+                    return new BankPayment();
+                default: 
+                    return null;
             }
+        }
+    }
+    internal class ECommerce
+    {
+        internal void MakePayment(int amount, string paymentMode)
+        {
+            PaymentFactory factory = new PaymentFactory();
+            IPayment paymentMethod = factory.createPaymentMethod(paymentMode);
+
+            paymentMethod.MakePayment(amount);
         }
     }
 
