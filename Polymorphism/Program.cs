@@ -15,24 +15,57 @@ namespace Polymorphism
         }
     }
 
+    public interface IPayment
+    {
+        void MakePayment(int amount);
+    }
+
+    public class CBPayment : IPayment
+    {
+        CBService CBSrv = new CBService();
+        public void MakePayment(int amount)
+        {
+            CBSrv.MakeCBPayment(amount);
+        }
+    }
+
+    public class BankPayment : IPayment
+    {
+        BankService BankSrv = new BankService();
+        public void MakePayment(int amount)
+        {
+            BankSrv.MakeBankPayment(amount);
+        }
+    }
+
+    public class PaypalPayment : IPayment
+    {
+        PaypalService PaypalSrv = new PaypalService();
+
+        public void MakePayment(int amount)
+        {
+            PaypalSrv.MakePaypalPayment(amount);
+        }
+    }
+
     internal class ECommerce
     {
         internal void MakePayment(int amount, string paymentMode)
         {
-            CBService CBSrv = new CBService();
-            PaypalService PaypalSrv = new PaypalService();
-            BankService BankSrv = new BankService();
+            CBPayment cbp = new CBPayment();
+            BankPayment bp = new BankPayment();
+            PaypalPayment pp = new PaypalPayment();
 
             switch (paymentMode)
             {
                 case "CB" :
-                    CBSrv.MakeCBPayment(amount);
+                    cbp.MakePayment(amount);
                     break;
                 case "PAYPAL" :
-                    PaypalSrv.MakePaypalPayment(amount);
+                    bp.MakePayment(amount);
                     break;
                 case "BANK" :
-                    BankSrv.MakeBankPayment(amount);
+                    pp.MakePayment(amount);
                     break;
                 default:
                     break;
