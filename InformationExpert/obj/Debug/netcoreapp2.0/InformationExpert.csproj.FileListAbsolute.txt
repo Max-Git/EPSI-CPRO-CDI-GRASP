@@ -1,0 +1,10 @@
+/Users/max/Documents/Boulot/Formations/EPSI/GRASP/InformationExpert/bin/Debug/netcoreapp2.0/InformationExpert.deps.json
+/Users/max/Documents/Boulot/Formations/EPSI/GRASP/InformationExpert/bin/Debug/netcoreapp2.0/InformationExpert.runtimeconfig.json
+/Users/max/Documents/Boulot/Formations/EPSI/GRASP/InformationExpert/bin/Debug/netcoreapp2.0/InformationExpert.runtimeconfig.dev.json
+/Users/max/Documents/Boulot/Formations/EPSI/GRASP/InformationExpert/bin/Debug/netcoreapp2.0/InformationExpert.dll
+/Users/max/Documents/Boulot/Formations/EPSI/GRASP/InformationExpert/bin/Debug/netcoreapp2.0/InformationExpert.pdb
+/Users/max/Documents/Boulot/Formations/EPSI/GRASP/InformationExpert/obj/Debug/netcoreapp2.0/InformationExpert.csproj.CoreCompileInputs.cache
+/Users/max/Documents/Boulot/Formations/EPSI/GRASP/InformationExpert/obj/Debug/netcoreapp2.0/InformationExpert.AssemblyInfoInputs.cache
+/Users/max/Documents/Boulot/Formations/EPSI/GRASP/InformationExpert/obj/Debug/netcoreapp2.0/InformationExpert.AssemblyInfo.cs
+/Users/max/Documents/Boulot/Formations/EPSI/GRASP/InformationExpert/obj/Debug/netcoreapp2.0/InformationExpert.dll
+/Users/max/Documents/Boulot/Formations/EPSI/GRASP/InformationExpert/obj/Debug/netcoreapp2.0/InformationExpert.pdb

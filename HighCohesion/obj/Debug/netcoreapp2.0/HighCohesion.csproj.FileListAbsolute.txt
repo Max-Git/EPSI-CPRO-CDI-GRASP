@@ -1,0 +1,10 @@
+/Users/max/Documents/Boulot/Formations/EPSI/GRASP/HighCohesion/bin/Debug/netcoreapp2.0/HighCohesion.deps.json
+/Users/max/Documents/Boulot/Formations/EPSI/GRASP/HighCohesion/bin/Debug/netcoreapp2.0/HighCohesion.runtimeconfig.json
+/Users/max/Documents/Boulot/Formations/EPSI/GRASP/HighCohesion/bin/Debug/netcoreapp2.0/HighCohesion.runtimeconfig.dev.json
+/Users/max/Documents/Boulot/Formations/EPSI/GRASP/HighCohesion/bin/Debug/netcoreapp2.0/HighCohesion.dll
+/Users/max/Documents/Boulot/Formations/EPSI/GRASP/HighCohesion/bin/Debug/netcoreapp2.0/HighCohesion.pdb
+/Users/max/Documents/Boulot/Formations/EPSI/GRASP/HighCohesion/obj/Debug/netcoreapp2.0/HighCohesion.csproj.CoreCompileInputs.cache
+/Users/max/Documents/Boulot/Formations/EPSI/GRASP/HighCohesion/obj/Debug/netcoreapp2.0/HighCohesion.AssemblyInfoInputs.cache
+/Users/max/Documents/Boulot/Formations/EPSI/GRASP/HighCohesion/obj/Debug/netcoreapp2.0/HighCohesion.AssemblyInfo.cs
+/Users/max/Documents/Boulot/Formations/EPSI/GRASP/HighCohesion/obj/Debug/netcoreapp2.0/HighCohesion.dll
+/Users/max/Documents/Boulot/Formations/EPSI/GRASP/HighCohesion/obj/Debug/netcoreapp2.0/HighCohesion.pdb
