@@ -5,11 +5,13 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using AppliWeb.Models;
+using AppliWeb.ModelBuilder;
 
 namespace AppliWeb.Controllers
 {
     public class HomeController : Controller
     {
+        MyModelBuilder builder = new MyModelBuilder();
         public IActionResult Index()
         {
             return View();
@@ -19,10 +21,9 @@ namespace AppliWeb.Controllers
         {
             ViewData["Message"] = "Your application description page. TOTO";
 
-            AboutViewModel model = new AboutViewModel(){MyProperty = "super cool !"};
-
-            return View(model);
+            return View(builder.createAboutVM());
         }
+        
 
         public IActionResult Contact()
         {
